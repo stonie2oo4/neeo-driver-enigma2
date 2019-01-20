@@ -183,37 +183,37 @@ module.exports.onButtonPressed = function onButtonPressed(name) {
       break;
 
     case "PLAY":
-      var Inquiry = 'remotecontrol?command=399';
+      var Inquiry = 'remotecontrol?command=207';
       Inquire(Inquiry);
       break;
 
     case "PAUSE":
-      var Inquiry = 'remotecontrol?command=400';
+      var Inquiry = 'remotecontrol?command=207';
       Inquire(Inquiry);
       break;
 
     case "STOP":
-      var Inquiry = 'remotecontrol?command=377';
+      var Inquiry = 'remotecontrol?command=128';
       Inquire(Inquiry);
       break;
 
     case "REVERSE":
-      var Inquiry = 'remotecontrol?command=398';
+      var Inquiry = 'remotecontrol?command=168';
       Inquire(Inquiry);
       break;
 
     case "FORWARD":
-      var Inquiry = 'remotecontrol?command=401';
+      var Inquiry = 'remotecontrol?command=208';
       Inquire(Inquiry);
       break;
 
     case "SKIP SECONDS BACKWARD":
-      var Inquiry = 'remotecontrol?command=398';
+      var Inquiry = 'remotecontrol?command=105';
       Inquire(Inquiry);
       break;
 
     case "SKIP SECONDS FORWARD":
-      var Inquiry = 'remotecontrol?command=401';
+      var Inquiry = 'remotecontrol?command=106';
       Inquire(Inquiry);
       break;
 
@@ -238,7 +238,7 @@ module.exports.onButtonPressed = function onButtonPressed(name) {
       break;
     
     case "RECORD":
-      var Inquiry = 'remotecontrol?command=393';
+      var Inquiry = 'remotecontrol?command=167';
       Inquire(Inquiry);
       break;
 
