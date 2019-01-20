@@ -188,7 +188,7 @@ module.exports.onButtonPressed = function onButtonPressed(name) {
       break;
 
     case "PAUSE":
-      var Inquiry = 'remotecontrol?command=207';
+      var Inquiry = 'remotecontrol?command=119';
       Inquire(Inquiry);
       break;
 
